@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        Text: <input class="text-imput" type="text">
+    </div>
+    <div>
+        Pass: <input class="pass-imput" type="password">
+    </div>
+    <div>
+        Scrole: <input class="range-imput" type="range" max="200"> /*по умолчанию от 0 до 100 но мы сделали до 200*/
+    </div>
+    <div>
+        Календарь: <input class="calendar-imput" type="date">
+    </div>
+    <div>
+        Выбор цвета: <input class="color-imput" type="color">
+    </div>
+    <div>
+        Чек бокс: <input class="radio-imput" type="checkbox" id="checkbox-imput">
+        <label for="checkbox-imput">Выбери меня</label> (Для выбора по умолчанию, необходимо добавить в импут свойство Cheked)
+    </div>
+
+    <div>
+        Radio:
+        <input class="radio-imput" type="radio" id="radio-1" name="r555">
+        <label for="radio-1">Option 1</label>
+        <input class="radio-imput" type="radio" id="radio-2" name="r555" checked>
+        <label for="radio-2">Option 2</label>
+        <input class="radio-imput" type="radio" id="radio-3" name="r555">
+        <label for="radio-3">Option 3</label>
+    </div>
+
+
+
+    <div>
+        <button class="push">Push</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

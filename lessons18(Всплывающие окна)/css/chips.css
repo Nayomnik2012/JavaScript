@@ -5,3 +5,10 @@
     background: rgba(0, 0, 0,.6);
     color: #fff;
 }
+
+.chips-field {
+    width: 200px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}

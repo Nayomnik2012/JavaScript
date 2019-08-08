@@ -10,11 +10,12 @@ document.querySelectorAll('.modal-close').forEach(function(element) {
     element.onclick = closeModal;
 });
 
-/* //закрытие по клику на серое поле
+
+//закрытие по клику на серое поле
 document.querySelectorAll('.modal-wrap').forEach(function(element) {
     element.onclick = closeModal;
 });
- */
+
 
 
 //функция показывает модальное окно

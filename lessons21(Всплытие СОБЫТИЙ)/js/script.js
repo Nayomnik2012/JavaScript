@@ -1,12 +1,12 @@
 function myClick(event) {
-    console.log('click');
-    console.log(event.target);
+    /*  console.log('click');
+     console.log(event.target); */
     console.log(this);
     //console.log(event);
 }
 
-/* document.querySelector('#one').onclick = myClick;
-document.querySelector('body').onclick = myClick;
+document.querySelector('#one').onclick = myClick;
+/* document.querySelector('body').onclick = myClick;
 document.querySelector('html').onclick = myClick; */
 
 //можем работать с свойствами любого элимента, на который кликнем

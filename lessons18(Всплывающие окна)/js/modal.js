@@ -12,7 +12,6 @@ document.querySelectorAll('.modal-close').forEach(function(element) {
 
 //закрытие по клику на серое поле
 document.querySelectorAll('.modal-wrap').forEach(function(element) {
-    
     element.onclick = closeModal;
 });
 
@@ -23,7 +22,7 @@ function showModal() {
     //кнопка сечас this у ее есть атрибьют data-model, который находится в dataset
     //и выбираем закладку "Properties" ищем dataset внутри которого находится "modal"
     let modalId = this.dataset.modal;
-    
+
     //удаляем "hide" в DIV "modal-wrap"
     document.querySelector(modalId).classList.remove('hide');
 

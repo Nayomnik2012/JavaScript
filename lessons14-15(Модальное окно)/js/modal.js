@@ -16,6 +16,15 @@ document.querySelectorAll('.modal-wrap').forEach(function(element) {
     element.onclick = closeModal;
 });
 
+//функция блокировки закрытия окна по модальному окну
+document.querySelector('.modal').onclick = function() {
+    //условия если this этот className имя класа равен modal
+    if (this.className == 'modal') {
+        //то event событие stopPropagation() необходимо остановить
+        event.stopPropagation();
+    }
+    //сокращенная запись if (this.className == 'modal') event.stopPropagation();
+}
 
 
 //функция показывает модальное окно
@@ -42,6 +51,7 @@ function showModal() {
 
 //аналогичная функция для закрытия модального окна по кнопке CLOSE 
 function closeModal() {
+
     //получаю все модальные оболочки, перебираем их
     document.querySelectorAll('.modal-wrap').forEach(function(element) {
 

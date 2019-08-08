@@ -1,0 +1,15 @@
+div {
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin: 30px;
+}
+
+body {
+    min-width: 500px;
+    border: 1px solid #ddd;
+}
+
+html {
+    border: 1px solid #ddd;
+    min-height: 200px;
+}
